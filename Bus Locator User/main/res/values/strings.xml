@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">BusLocatorUser</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+    <string name="location_label">Location:</string>
+    <string name="normal">Normal</string>
+    <string name="satellite">Satellite</string>
+    <string name="terrain">Terrain</string>
+    <string name="hybrid">Hybrid</string>
+    <string name="none">None</string>
+    <string name="action_settings">Setting</string>
+    <string name="map_info">Map Info</string>">
+
+    <string-array name="strsrc">
+        <item>ISBT</item>
+        <item>SABZI MANDI</item>
+        <item>SAHRANPUR CHOWK</item>
+        <item>CLOCK TOWER</item>
+        <item>DILARAM</item>
+        <item>JAKHAN</item>
+        <item>RAJPUR</item>
+        <item>KOTHAL GATE</item>
+        <item>DIT</item>
+    </string-array>
+    <string-array name="strdes">
+        <item>ISBT</item>
+        <item>SABZI MANDI</item>
+        <item>SAHRANPUR CHOWK</item>
+        <item>CLOCK TOWER</item>
+        <item>DILARAM</item>
+        <item>JAKHAN</item>
+        <item>RAJPUR</item>
+        <item>KOTHAL GATE</item>
+        <item>DIT</item>
+    </string-array>
+
+    <string-array name="strsrc2">
+        <item>PARADE GROUND</item>
+        <item>TOUCHWOOD SCHOOL</item>
+        <item>IT PARK</item>
+        <item>KALA GAON</item>
+        <item>SAHASTRADHARA</item>
+    </string-array>
+
+    <string-array name="strdes2">
+        <item>PARADE GROUND</item>
+        <item>TOUCHWOOD SCHOOL</item>
+        <item>IT PARK</item>
+        <item>KALA GAON</item>
+        <item>SAHASTRADHARA</item>
+    </string-array>
+
+    <string-array name="strsrc3">
+        <item>PREM NAGAR</item>
+        <item>BALLUPUR CHOWK</item>
+        <item>NIRANPUR CHOWK</item>
+        <item>SAHRANPUR CHOWK</item>
+        <item>RISPANA PUL</item>
+    </string-array>
+
+    <string-array name="strdes3">
+        <item>SAHRANPUR CHOWK</item>
+        <item>NIRANPUR CHOWK</item>
+        <item>PREM NAGAR</item>
+        <item>BALLUPUR CHOWK</item>
+        <item>RISPANA PUL</item>
+    </string-array>
+
+    <string-array name="strsrc4">
+        <item>PREMNAGAR</item>
+        <item>VASANT VIHAR</item>
+        <item>BALLUPUR CHOWK</item>
+        <item>CAPRI TRADE TOWER</item>
+        <item>CLOCK TOWER</item>
+        <item>PRINCE CHOWK</item>
+        <item>RAILWAY STATION</item>
+    </string-array>
+
+    <string-array name="strdes4">
+        <item>PREMNAGAR</item>
+        <item>VASANT VIHAR</item>
+        <item>BALLUPUR CHOWK</item>
+        <item>CAPRI TRADE TOWER</item>
+        <item>CLOCK TOWER</item>
+        <item>PRINCE CHOWK</item>
+        <item>RAILWAY STATION</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_route5">Route5</string>
+</resources>

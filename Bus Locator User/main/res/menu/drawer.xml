@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/map_home_nav"
+            android:title="MAP"
+            android:icon="@drawable/aboutus"
+
+            />
+        <item
+            android:id="@+id/bus_info_nav"
+            android:title="Bus Info"
+            android:icon="@drawable/aboutus"
+            />
+        <item
+            android:id="@+id/aboutus_nav"
+            android:title="About Us"
+            android:icon="@drawable/aboutus"
+            />
+    </group>
+
+</menu>

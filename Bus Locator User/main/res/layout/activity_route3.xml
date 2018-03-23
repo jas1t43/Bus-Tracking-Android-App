@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.buslocatoruser.Route3"
+    android:orientation="vertical">
+
+    <include
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/toolbar_layout"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:text="Route 3"
+            ></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Source"
+            android:id="@+id/textView4"
+
+            android:layout_weight="0.16"
+            android:layout_marginTop="12dp" />
+
+        <Spinner
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_src3"
+            android:layout_alignStart="@+id/spinner_src3"
+            android:layout_marginLeft="9dp"
+            android:layout_weight="0.07" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Destination"
+
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="40dp" />
+
+        <Spinner
+            android:layout_width="151dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerdst3"
+            android:layout_alignStart="@+id/spinner_src3"
+            android:layout_marginLeft="20dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:textSize="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="FARE ="
+            android:layout_marginTop="10dp" />
+        <TextView
+            android:layout_width="134dp"
+            android:layout_height="match_parent"
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/fare3"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FIND FARE"
+            android:id="@+id/b3"
+            android:onClick="findFare"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
